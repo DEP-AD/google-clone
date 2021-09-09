@@ -68,6 +68,10 @@ box-sizing: border-box;
     padding: 6px 8px;
 }
 
+.header__sign-in-wrapper{
+    display: flex;
+}
+
 .header__app-icon{
     padding-left: 15px;
     width: 24px;
@@ -97,9 +101,9 @@ box-sizing: border-box;
     text-align: center;
 }
 
-.main > img{
+/* .main > img{
 padding-top: 31px;
-}
+} */
 
 .main__wrapper{
     padding: 20px 20px 16px;
@@ -210,7 +214,7 @@ padding-top: 31px;
       justify-content: space-between;
     }
   }
-  
+
   @media all and (max-width: 480px) {
     .main__image-wrapper > img {
       height: 72px;
@@ -229,11 +233,13 @@ padding-top: 31px;
       position: relative;
     }
   }
-  
+
   @media all and (max-height: 514px) {
     .page__footer {
       margin-top: 26px;
       position: relative;
     }
+  
+  
   }
 
