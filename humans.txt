@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Aruni Dissanayake
+    aruni.saku@gmail.com
+
 
 # THANKS
 
-    <name>
+    DEP 7 Team
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, ParcelJS, HTML5BoilerPlate, Normalize.css, NPM, GitHub 
+    
