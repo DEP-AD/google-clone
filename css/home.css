@@ -203,7 +203,7 @@ padding-top: 31px;
     right: 0;
     bottom: 0;
 }
-
+        
 @media all and (max-width: 1200px){
     .footer__menu-wrapper{
         justify-content: space-evenly;

@@ -27,23 +27,42 @@
 
 <body class="page">
 
-  <header class="header">
-    <img class="header__img" src="img/googlelogo.png">
+  <header class="header page__header">
+    <div class="header__wrapper">
+      <img class="header__img" src="img/googlelogo.png">
+      <div class="gcse-searchbox-only"></div>
+    </div>
+    <div>
+      <menu class="header__menu">
+        <li class="header__link">All</li>
+        <li class="header__link">Images</li>
+        <li class="header__link">Maps</li>
+        <li class="header__link">Videos</li>
+        <li class="header__link">News</li> 
+        <li class="header__link">More</li> 
+      </menu>
+    </div>
   </header>
 
-  <main>
-    <div class="gcse-searchbox-only"></div>
+  <main class="main page__main">
     <div class="gcse-searchresults-only"></div>
     
-   
     <script async src="https://cse.google.com/cse.js?cx=99af21524df38587c"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
   </main>
 
 
-  <footer>
-
+  <footer class="footer page__footer">
+    <div class="footer__country">Sri Lanka</div>
+    <div>
+      <menu class="footer__menu">
+        <li class="footer__link"><a class="link" href="https://support.google.com/websearch/?p=ws_results_help&hl=en-LK&fg=1">Help</a></li>
+        <li class="footer__link"><a class="link" href="https://www.google.com/search?q=ijse&hl=en&sxsrf=AOaemvKADqZbad_5uZFE3FwCBu48QmfnFg:1632658435475&ei=A2RQYdWyHJDgrQGtuKXYDw&start=10&sa=N&ved=2ahUKEwiVwNfQzpzzAhUQcCsKHS1cCfsQ8tMDegQIARA1&biw=646&bih=624&dpr=1#">Send feedback</a></li>
+        <li class="footer__link"><a class="link" href="https://policies.google.com/privacy?hl=en-LK&fg=1">Privacy</a></li>
+        <li class="footer__link"><a class="link" href="https://policies.google.com/terms?hl=en-LK&fg=1">Terms</a></li>
+      </menu>
+    </div>
   </footer>
 </body>
 
